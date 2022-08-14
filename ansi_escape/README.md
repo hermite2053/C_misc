@@ -19,8 +19,8 @@ If we write below code:
 printf("\e[31mERROR!!\e[0m\n");
 ```
 
-the flashes should be <font color="Red">ERROR!!</font> in case
-terminal supports ANSI color.
+the flashes should be <font color="Red">ERROR!!</font>(this word's color should be red) in case
+terminal supports ANSI escape code.
 
 ## letter
 
@@ -42,4 +42,4 @@ printf("\e[3mItalic\e0m\n");
 ```
 
 the flashes should be *Italic* in case
-terminal supports ANSI color.
+terminal supports ANSI escape code.
